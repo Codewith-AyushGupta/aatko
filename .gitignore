@@ -1,0 +1,97 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+.next/error
+out/
+[Dd]ebug/
+[Rr]elease/
+[Oo]bj/
+[Oo]ut/
+
+# Salesforce CLI
+.sf/
+.sfdx/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Database
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Data exports (may contain row-level data)
+exports/
+*.csv
+!**/templates/*.csv
+*.xlsx
+!**/templates/*.xlsx
+
+# Generated workspaces (may contain sensitive analysis)
+workspaces/*/
+
+# IDE
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.sublime-*
+.vs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Debug files
+*.debug.json
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.pdb
+*.ilk
+
+# NuGet
+*.nupkg
+*.snupkg
+
+# Windows Installer
+*.msi
+*.msix
