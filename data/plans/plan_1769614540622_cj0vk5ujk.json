@@ -1,0 +1,117 @@
+{
+  "id": "plan_1769614540622_cj0vk5ujk",
+  "name": "Data Simplification Plan",
+  "type": "simplification",
+  "description": "Consolidate objects, migrate data, rebuild automations, and reduce org complexity",
+  "status": "draft",
+  "createdAt": "2026-01-28T15:35:40.622Z",
+  "updatedAt": "2026-01-28T15:35:40.622Z",
+  "items": [
+    {
+      "id": 26616,
+      "apiName": "AA_Sales_Team_Member__c",
+      "label": "AA Sales Team Member",
+      "type": "Object",
+      "action": "review",
+      "status": "pending",
+      "dependentCount": 73
+    }
+  ],
+  "checklist": [
+    {
+      "id": "c1",
+      "text": "Run Field Usage Analyzer",
+      "completed": false,
+      "category": "Analysis"
+    },
+    {
+      "id": "c2",
+      "text": "Review Retirement Assessment candidates",
+      "completed": false,
+      "category": "Analysis"
+    },
+    {
+      "id": "c3",
+      "text": "Identify all unused/low-usage components",
+      "completed": false,
+      "category": "Analysis"
+    },
+    {
+      "id": "c4",
+      "text": "Document business justification for each removal",
+      "completed": false,
+      "category": "Analysis"
+    },
+    {
+      "id": "c5",
+      "text": "Verify no active integrations use these components",
+      "completed": false,
+      "category": "Validation"
+    },
+    {
+      "id": "c6",
+      "text": "Check reports and dashboards for dependencies",
+      "completed": false,
+      "category": "Validation"
+    },
+    {
+      "id": "c7",
+      "text": "Review with data owners/stakeholders",
+      "completed": false,
+      "category": "Validation"
+    },
+    {
+      "id": "c8",
+      "text": "Get approval for removal",
+      "completed": false,
+      "category": "Validation"
+    },
+    {
+      "id": "c9",
+      "text": "Export affected data (if needed)",
+      "completed": false,
+      "category": "Execution"
+    },
+    {
+      "id": "c10",
+      "text": "Remove from page layouts",
+      "completed": false,
+      "category": "Execution"
+    },
+    {
+      "id": "c11",
+      "text": "Delete unused fields/objects",
+      "completed": false,
+      "category": "Execution"
+    },
+    {
+      "id": "c12",
+      "text": "Run Health Check to verify stability",
+      "completed": false,
+      "category": "Execution"
+    },
+    {
+      "id": "c13",
+      "text": "Update data dictionary",
+      "completed": false,
+      "category": "Documentation"
+    },
+    {
+      "id": "c14",
+      "text": "Document changes in changelog",
+      "completed": false,
+      "category": "Documentation"
+    },
+    {
+      "id": "c15",
+      "text": "Update training materials if needed",
+      "completed": false,
+      "category": "Documentation"
+    }
+  ],
+  "metadata": {
+    "targetOrg": "aa-sandbox",
+    "owner": "Jason Adams",
+    "riskLevel": "medium"
+  }
+}

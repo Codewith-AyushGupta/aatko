@@ -1,0 +1,103 @@
+{
+  "id": "plan_1769616259407_v6b2zflze",
+  "name": "Fix / Enhancement Plan",
+  "type": "fix",
+  "description": "Bug fix, small enhancement, or managed package addition",
+  "status": "draft",
+  "createdAt": "2026-01-28T16:04:19.408Z",
+  "updatedAt": "2026-01-28T16:04:19.408Z",
+  "items": [
+    {
+      "id": 29650,
+      "apiName": "Calendly_Generate_Sales_Team_KPIs",
+      "label": "Calendly - Generate Sales Team KPIs",
+      "type": "Flow",
+      "action": "update",
+      "status": "pending"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "c1",
+      "text": "Reproduce the issue",
+      "completed": false,
+      "category": "Investigation"
+    },
+    {
+      "id": "c2",
+      "text": "Identify root cause",
+      "completed": false,
+      "category": "Investigation"
+    },
+    {
+      "id": "c3",
+      "text": "Document affected components",
+      "completed": false,
+      "category": "Investigation"
+    },
+    {
+      "id": "c4",
+      "text": "Run Impact Analysis on affected areas",
+      "completed": false,
+      "category": "Investigation"
+    },
+    {
+      "id": "c5",
+      "text": "Implement fix in sandbox",
+      "completed": false,
+      "category": "Development"
+    },
+    {
+      "id": "c6",
+      "text": "Write/update test cases",
+      "completed": false,
+      "category": "Development"
+    },
+    {
+      "id": "c7",
+      "text": "Peer review changes",
+      "completed": false,
+      "category": "Development"
+    },
+    {
+      "id": "c8",
+      "text": "Test fix resolves the issue",
+      "completed": false,
+      "category": "Testing"
+    },
+    {
+      "id": "c9",
+      "text": "Regression testing",
+      "completed": false,
+      "category": "Testing"
+    },
+    {
+      "id": "c10",
+      "text": "User acceptance testing",
+      "completed": false,
+      "category": "Testing"
+    },
+    {
+      "id": "c11",
+      "text": "Deploy to production",
+      "completed": false,
+      "category": "Deployment"
+    },
+    {
+      "id": "c12",
+      "text": "Verify fix in production",
+      "completed": false,
+      "category": "Deployment"
+    },
+    {
+      "id": "c13",
+      "text": "Close ticket and notify stakeholders",
+      "completed": false,
+      "category": "Deployment"
+    }
+  ],
+  "metadata": {
+    "targetOrg": "aa-sandbox",
+    "riskLevel": "low"
+  }
+}

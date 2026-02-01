@@ -117,6 +117,7 @@ function parseDatabaseConfig(): AppConfig['database'] {
   const provider = (process.env.DATABASE_PROVIDER || 'sqlite') as AppConfig['database']['provider'];
 
   if (provider === 'sqlite') {
+    debugger;
     return {
       provider: 'sqlite',
       sqlitePath: process.env.SQLITE_PATH || './packages/indexer/data/metadata.db',

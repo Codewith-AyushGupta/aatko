@@ -23,11 +23,6 @@ out/
 *.pem
 *.key
 
-# Database
-data/
-*.db
-*.sqlite
-*.sqlite3
 
 # Logs
 logs/

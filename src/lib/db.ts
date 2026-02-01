@@ -28,7 +28,7 @@ const getMonorepoRoot = () => {
 };
 
 const MONOREPO_ROOT = getMonorepoRoot();
-const DB_PATH = path.join(MONOREPO_ROOT, 'packages', 'indexer', 'data', 'metadata.db');
+const DB_PATH = path.resolve(process.cwd(), 'data', 'metadata.db');
 
 // Cache for SQL.js instance
 let SQL: any = null;
@@ -54,10 +54,13 @@ async function initSql() {
 }
 
 export async function getDatabase(): Promise<any | null> {
+  debugger;
   if (!fs.existsSync(DB_PATH)) {
     console.log('Database not found at:', DB_PATH);
     return null;
   }
+
+      console.log('Database found at:', DB_PATH);
   const SqlJs = await initSql();
   const buffer = fs.readFileSync(DB_PATH);
   return new SqlJs.Database(buffer);
